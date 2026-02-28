@@ -1,28 +1,7 @@
-import { Navbar } from "@/components/navbar"
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
-import { Services } from "@/components/services"
-import { Gallery } from "@/components/gallery"
-import { Dining } from "@/components/dining"
-import { CtaBanner } from "@/components/cta-banner"
-import { Contact } from "@/components/contact"
-import { Footer } from "@/components/footer"
-
 export default function Home() {
-  console.log("[v0] Home page rendering")
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Services />
-        <Gallery />
-        <Dining />
-        <CtaBanner />
-        <Contact />
-      </main>
-      <Footer />
+    <div className="flex min-h-screen items-center justify-center">
+      <h1 className="text-4xl font-bold">Cosmic Executive Lodge</h1>
     </div>
   )
 }
