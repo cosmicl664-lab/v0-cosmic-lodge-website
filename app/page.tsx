@@ -46,7 +46,7 @@ const SERVICES = [
 ]
 
 const GALLERY_IMAGES = [
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20outdoor%20main-gsb77TAcTyEdvZGReBmSpSW2puHDsu.png", alt: "Cosmic Lodge exterior" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.png", alt: "Cosmic Lodge exterior" },
   { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20outdoor%201-JVXYf61Ecl1j1794Bhaq6wZLfOnMla.png", alt: "Lodge building with tropical plants" },
   { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20indoor-PtJqO3FYIG7y3rSxeWUakPEXXesZ5n.png", alt: "Elegant lobby with wrought iron staircase" },
   { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20room-ezBPkf3TZWRIUnEgjruDNZoFafo0Ge.png", alt: "Comfortable hotel room" },
@@ -197,7 +197,7 @@ export default function Home() {
         {/* ===== HERO ===== */}
         <section id="home" className="relative h-[90vh] min-h-[500px] overflow-hidden">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20outdoor%20main-gsb77TAcTyEdvZGReBmSpSW2puHDsu.png"
+            src="https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.png"
             alt="Cosmic Executive Lodge exterior"
             fill
             className="object-cover"
