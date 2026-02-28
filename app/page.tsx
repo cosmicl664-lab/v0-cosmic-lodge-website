@@ -10,7 +10,7 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <>
+    <div className="min-h-screen">
       <Navbar />
       <main>
         <Hero />
@@ -22,6 +22,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }

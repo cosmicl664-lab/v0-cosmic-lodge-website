@@ -100,18 +100,32 @@ export function Contact() {
             </div>
           </div>
 
-          {/* Map embed */}
+          {/* Map */}
           <div className="overflow-hidden rounded-sm bg-card shadow-sm">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.3!2d28.31!3d-15.41!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDI0JzM2LjAiUyAyOMKwMTgnMzYuMCJF!5e0!3m2!1sen!2szm!4v1234567890"
-              width="100%"
-              height="100%"
-              style={{ border: 0, minHeight: "450px" }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Cosmic Executive Lodge location on Google Maps"
-            />
+            <div className="relative" style={{ minHeight: "450px", height: "100%" }}>
+              <a
+                href="https://maps.app.goo.gl/hxrrFoMtW4c9gmNe9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-full min-h-[450px] flex-col items-center justify-center gap-6 bg-secondary p-8 text-center transition-colors hover:bg-muted"
+              >
+                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
+                  <MapPin className="h-10 w-10 text-primary" />
+                </div>
+                <div>
+                  <h3 className="mb-2 font-serif text-2xl font-bold text-foreground">
+                    Find Us on Google Maps
+                  </h3>
+                  <p className="mb-4 text-muted-foreground">
+                    Olympia, Lubasenshi Close, off Katima Mulilo Road, Lusaka
+                  </p>
+                  <span className="inline-flex items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-accent">
+                    Open in Google Maps
+                    <ExternalLink className="h-4 w-4" />
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
