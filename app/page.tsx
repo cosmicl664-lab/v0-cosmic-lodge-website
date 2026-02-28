@@ -46,29 +46,29 @@ const SERVICES = [
 ]
 
 const GALLERY_IMAGES = [
-  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.png", alt: "Cosmic Lodge exterior" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20outdoor%201-JVXYf61Ecl1j1794Bhaq6wZLfOnMla.png", alt: "Lodge building with tropical plants" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20indoor-PtJqO3FYIG7y3rSxeWUakPEXXesZ5n.png", alt: "Elegant lobby with wrought iron staircase" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20room-ezBPkf3TZWRIUnEgjruDNZoFafo0Ge.png", alt: "Comfortable hotel room" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20pool-KSNYaAMFBjhC8BGSOVIBmt6mdju7ey.png", alt: "Swimming pool area" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20outdoor-UWsDvppZVCxAOwO7WgJSueSeyBIvGT.png", alt: "Pool and restaurant exterior" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20restuarant-GlmZq5a4M4R9Q9PU1hJQDFolJDXhOZ.png", alt: "Restaurant dining area" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20dining%20setup.png-M4e6C40YRTFJxRcji6YZzuCJPs6ttQ.jpeg", alt: "Elegant event dining setup" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.webp", alt: "Cosmic Lodge exterior" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%201.webp", alt: "Lodge building with tropical plants" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20indoor.webp", alt: "Elegant lobby with wrought iron staircase" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20room.webp", alt: "Comfortable hotel room" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20pool.webp", alt: "Swimming pool area" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor.webp", alt: "Pool and restaurant exterior" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20restuarant.webp", alt: "Restaurant dining area" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20dining%20setup.webp", alt: "Elegant event dining setup" },
 ]
 
 const FOOD_IMAGES = [
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20meal%201.png-t44m3E0geHk9mukSPRVs4aOAEhBAoM.jpeg", alt: "Full English breakfast" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20meal%203-V9v6QzvY5W7x1wUHvHl1RQNtKYNKWq.png", alt: "Gourmet plated dish" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20meal%204-JabUu61PmnNyKAoWH0gauaKPq7JDlm.png", alt: "Braised meat with pasta" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20meal-r0T1wpdxbfNo1cSq3Sd5yXl6OR0lzw.png", alt: "Chicken wrap with salad" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20meal%202-asGkOBAdJ0q7A5JF3lSSUKNsZx3Mqv.png", alt: "Event dinner plate" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20meal%201.webp", alt: "Full English breakfast" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20meal%203.webp", alt: "Gourmet plated dish" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20meal%204.webp", alt: "Braised meat with pasta" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20meal.webp", alt: "Chicken wrap with salad" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20meal%202.webp", alt: "Event dinner plate" },
 ]
 
 const CATERING_IMAGES = [
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20catering%20services.png-2nnIjv9mHjWopFPMQat8GR3viIPYn1.jpeg", alt: "Catering services display" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20catering%20services%201-mLYouv4sZbxoBXJKlZDarbZzv7vAVs.png", alt: "Buffet setup" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20catering%20services%202.png-lT4UtEUoPvvjI1ZbespTwbwqLRnIUe.jpeg", alt: "Catering chafing dishes" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20catering%20services%203.png-iLOmECuBWOegwYUI3SiLs1CHOoS4im.jpeg", alt: "Sausages and greens" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20catering%20services.webp", alt: "Catering services display" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20catering%20services%201.webp", alt: "Buffet setup" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20catering%20services%202.webp", alt: "Catering chafing dishes" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20catering%20services%203.webp", alt: "Sausages and greens" },
 ]
 
 function ServiceIcon({ icon }: { icon: string }) {
@@ -197,7 +197,7 @@ export default function Home() {
         {/* ===== HERO ===== */}
         <section id="home" className="relative h-[90vh] min-h-[500px] overflow-hidden">
           <Image
-            src="https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.png"
+            src="https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.webp"
             alt="Cosmic Executive Lodge exterior"
             fill
             className="object-cover"
@@ -278,7 +278,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="overflow-hidden rounded">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20indoor-PtJqO3FYIG7y3rSxeWUakPEXXesZ5n.png"
+                    src="https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20indoor.webp"
                     alt="Elegant lobby interior"
                     width={400}
                     height={500}
@@ -287,7 +287,7 @@ export default function Home() {
                 </div>
                 <div className="mt-8 overflow-hidden rounded">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cosmic%20outdoor%201-JVXYf61Ecl1j1794Bhaq6wZLfOnMla.png"
+                    src="https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%201.webp"
                     alt="Lodge exterior"
                     width={400}
                     height={500}
