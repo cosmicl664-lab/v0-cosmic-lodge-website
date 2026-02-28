@@ -1,11 +1,12 @@
+// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
+    images: {
+        unoptimized: false,
+        formats: ['image/avif', 'image/webp'],
+        quality: 75,
+    },
+};
 
-export default nextConfig
+module.exports = nextConfig;
