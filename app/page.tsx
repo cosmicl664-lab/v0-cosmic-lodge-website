@@ -49,7 +49,7 @@ const GALLERY_IMAGES = [
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%20main.webp", alt: "Cosmic Lodge exterior" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%201.webp", alt: "Lodge building with tropical plants" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20indoor.webp", alt: "Elegant lobby with wrought iron staircase" },
-  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20room.webp", alt: "Comfortable hotel room" },
+  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20room%202.webp", alt: "Comfortable hotel room" },
   // { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20pool.webp", alt: "Swimming pool area" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor.webp", alt: "Pool and restaurant exterior" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20restuarant.webp", alt: "Restaurant dining area" },
