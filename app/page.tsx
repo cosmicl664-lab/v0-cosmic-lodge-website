@@ -273,6 +273,10 @@ export default function Home() {
                     <p className="font-serif text-2xl font-bold text-[#C4862A]">{"5 min"}</p>
                     <p className="text-sm text-muted-foreground">to East Park Mall</p>
                   </div>
+                  <div className="rounded bg-secondary p-4 text-center">
+                    <p className="font-serif text-2xl font-bold text-[#C4862A]">{"5 min"}</p>
+                    <p className="text-sm text-muted-foreground">to Mulungushi International Conference Centre</p>
+                  </div>
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
