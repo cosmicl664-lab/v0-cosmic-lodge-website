@@ -38,11 +38,11 @@ const SERVICES = [
     description: "Elegant event spaces for celebrations, corporate functions, and special occasions.",
     icon: "building",
   },
-  {
-    title: "Swimming Pool",
-    description: "Relax and unwind at our refreshing pool area surrounded by tropical greenery.",
-    icon: "waves",
-  },
+  // {
+  //   title: "Swimming Pool",
+  //   description: "Relax and unwind at our refreshing pool area surrounded by tropical greenery.",
+  //   icon: "waves",
+  // },
 ]
 
 const GALLERY_IMAGES = [
@@ -50,7 +50,7 @@ const GALLERY_IMAGES = [
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor%201.webp", alt: "Lodge building with tropical plants" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20indoor.webp", alt: "Elegant lobby with wrought iron staircase" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20room.webp", alt: "Comfortable hotel room" },
-  { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20pool.webp", alt: "Swimming pool area" },
+  // { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20pool.webp", alt: "Swimming pool area" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20outdoor.webp", alt: "Pool and restaurant exterior" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20restuarant.webp", alt: "Restaurant dining area" },
   { src: "https://vzy6avnckm3cedxz.public.blob.vercel-storage.com/cosmic%20dining%20setup.webp", alt: "Elegant event dining setup" },
@@ -238,7 +238,7 @@ export default function Home() {
         {/* ===== AMENITIES BAR ===== */}
         <section className="bg-[#2C1810] py-6">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-6 px-4 text-sm text-[#F5EDE0] sm:gap-10">
-            {["Free Wi-Fi", "Free Breakfast", "Free Parking", "Kid-Friendly", "Swimming Pool", "Fitness Center"].map((item) => (
+            {["Free Wi-Fi", "Free Breakfast", "Free Parking", "Kid-Friendly"].map((item) => (
               <span key={item} className="flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-[#D4A84B]" />
                 {item}
