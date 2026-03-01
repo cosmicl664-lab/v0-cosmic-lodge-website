@@ -443,7 +443,7 @@ export default function Home() {
                 Email for Booking
               </a>
               <a
-                href="tel:+260966782179"
+                href="tel:+260978922474"
                 className="rounded border-2 border-white/40 px-8 py-3 text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:border-white hover:bg-white/10"
               >
                 Call Us Now
