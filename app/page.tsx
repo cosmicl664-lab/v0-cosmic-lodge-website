@@ -262,7 +262,7 @@ export default function Home() {
                   Nestled in the serene Olympia neighbourhood of Lusaka, Cosmic Executive Lodge offers a perfect blend of comfort, elegance, and African hospitality. Whether you are visiting for business or leisure, our lodge provides a tranquil retreat just minutes from the city centre.
                 </p>
                 <p className="mb-6 leading-relaxed text-muted-foreground">
-                  From our beautifully appointed rooms to our acclaimed restaurant and versatile event spaces, every detail is designed to make your stay unforgettable. We are conveniently located off Katima Mulilo Road, just 5 minutes from Arcades Shopping Mall and East Park Mall.
+                  From our beautifully appointed rooms to our acclaimed restaurant and versatile event spaces, every detail is designed to make your stay unforgettable. We are conveniently located off Katima Mulilo Road, just 5 minutes from Arcades Shopping Mall, East Park Mall and Mulungushi International Conference Centre.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="rounded bg-secondary p-4 text-center">
@@ -512,6 +512,7 @@ export default function Home() {
                   <p className="font-semibold text-foreground">Nearby</p>
                   <p className="text-muted-foreground">5 min to Arcades Shopping Mall</p>
                   <p className="text-muted-foreground">5 min to East Park Mall</p>
+                  <p className="text-muted-foreground">5 min to Mulungushi International Conference Centre</p>
                 </div>
               </div>
             </div>
